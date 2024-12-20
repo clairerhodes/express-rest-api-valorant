@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const weaponSchema = mongoose.Schema({
     name: String,
     type: String,
-    skins: String,
+    skins: [],
     favorite: Boolean,
 });
 
